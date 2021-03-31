@@ -1,0 +1,287 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 1345px;
+    height: 4278px;
+}
+.screen{
+    width: 700px;
+    height: 620px;
+    margin-left: 325px;
+}
+nav{
+    height: 88px;
+    width: 700px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+       
+}
+
+.menu li{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    padding-top: 33px;
+    
+}
+
+.menu li:first-child{
+    color: black;
+}
+
+hr{
+    border-bottom: 1px solid black;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    line-height: 59px;
+    width: 120px;
+    margin-top: 38px;
+    color: #070707;
+    display: inline-block;
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    display: inline-block;
+    width: 150px;
+    padding-left: 25%;
+}
+
+#image{
+    width: 700px;
+    margin-top: 30px;
+}
+
+#image img{
+    width: 700px;
+}
+
+/* main */
+.main{
+    width: 1345px;
+    height: 508px;
+    background-color: #f6f6f6;
+}
+#about_me{
+    width: 700px;
+    margin-left: 325px;
+}
+#about_me h4{
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 120px;
+}
+
+#about_me p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    padding-top: 20px;
+}
+
+/* The end of main */
+/* Main two */
+
+.main_two{
+    height: 608px;
+    width: 1345px;
+    
+}
+
+.main_two h2{
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main_two p{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    padding-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#four_img{
+    width: 700px;
+    margin-left: 325px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+}
+
+.four_img_border .vector{
+    width: 150px;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#four_img span{
+    position: absolute;
+    margin-top: 100px;
+    display: block;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #828282;
+}
+
+#four_img .starsss{
+    height: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    display: inline-flex;
+}
+
+#four_img .starsss .star{
+    display: inline-flex;
+}
+
+/* The end of main two */
+/* Main three */
+
+.main_three{
+    width: 1345px;
+    height: 1940px;
+    background: #F6F6F6;
+}
+
+.main_three div{
+    height: 400px;
+    width: 700px;
+    margin-left: 325px;
+    background-color: black;
+}
+
+.pic1 {
+    margin-top: 64px;
+    background-image: url(./img/reebokweb2.png);
+    background-size: cover;
+}
+
+.pic2{
+    margin-top: 99px;
+    background-image: url(./img/reebok_web.png);
+    background-size: cover;
+}
+
+.pic3{
+    margin-top: 99px;
+    background-image: url(./img/reebok_web-1.png);
+    background-size: cover;
+}
+
+.main_three h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 112px;
+    color: #070707;
+}
+
+.main_three p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    padding-top: 44px;
+    color: #070707;
+}
+
+/* The end of main three */
+/* Footer */
+footer{
+    width: 1345px;
+    height: 600px;
+}
+
+.head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    color: #070707;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.send{
+    width: 180px;
+    height: 42px;
+    border-radius: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.send p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+}
+
+.text2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    ;
+}
+
+.icon_block{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* The end of footer */

@@ -1,0 +1,38 @@
+#first_blok{
+    background: rgb(231, 43, 43);
+    height: 100px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+#second_blok{
+    background-color: rgb(143, 235, 52);
+    height: 100px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+#third_blok{
+    background: rgb(99, 149, 241);
+    height: 100px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.main{
+    background-color: rgb(231, 189, 19);
+    color: rgb(5, 57, 78);
+    font-size: 18px;
+}
+
+.color{
+    background-color: rgb(85, 196, 233);
+    color: firebrick;
+    font-size: 18px;
+}
+
+.page{
+    background-color: rgb(233, 107, 233);
+    color: navy;
+    font-size: 18px;
+}
