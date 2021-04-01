@@ -26,3 +26,17 @@ console.log(ttl[0].innerText);
 // Результат ничего не вывелось
 
 // Без команды вывод ничего не выведется!
+
+
+let image = document.getElementsByClassName('add_image');
+console.log(image[0]);
+let quick_view = document.getElementsByClassName('add_quick_view');
+console.log(quick_view[0].innerText);
+let tool = document.getElementsByClassName('tool');
+console.log(tool[0].innerText);
+let price_p = document.getElementsByClassName('price_p');
+console.log(price_p[0].innerText);
+let price_del = document.getElementsByClassName('price_del');
+console.log(price_del[0].innerText);
+let review = document.getElementsByTagName('em');
+console.log(review[0].innerText);
