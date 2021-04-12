@@ -95,16 +95,16 @@
 // }
 
 
-// var elements = document.getElementsByClassName("add_cart");
+var elements = document.getElementsByClassName("add_cart");
 
-// var myFunction = function(){
-//         var attribute = this.parentNode.parentNode.parentNode.querySelectorAll(".ttl");
-//         alert(attribute[0].innerText);
-// };
+var myFunction = function(){
+        var attribute = this.parentNode.parentNode.parentNode.querySelectorAll(".ttl");
+        alert(attribute[0].innerText);
+};
 
-// for (var i=0; i<elements.length; i++){
-//         elements[i].addEventListener('click', myFunction, false);
-// }
+for (var i=0; i<elements.length; i++){
+        elements[i].addEventListener('click', myFunction, false);
+}
 
 
 // function tinatin(){
@@ -121,14 +121,14 @@
 
 // test_fan(1, 10, 20);
 
-const arr = {
-  name: 'Tinatin',
-  age: 23,
-  param: {
-    color: 'white',
-    nat:'kyrgyz'
-  }
-};
+// const arr = {
+//   name: 'Tinatin',
+//   age: 23,
+//   param: {
+//     color: 'white',
+//     nat:'kyrgyz'
+//   }
+// };
 
 // console.log(arr);
 // console.log(arr.name);
@@ -142,12 +142,12 @@ const arr = {
 //   console.log(arr[key]);
 // }
 
-for (var key in arr){
-  if (typeof(arr[key]) === 'object'){
-    for(var key2 in arr[key]){
-      console.log(arr[key][key2]);
-    }
-  }else{
-    console.log(arr[key]);
-  }
-}
+// for (var key in arr){
+//   if (typeof(arr[key]) === 'object'){
+//     for(var key2 in arr[key]){
+//       console.log(arr[key][key2]);
+//     }
+//   }else{
+//     console.log(arr[key]);
+//   }
+// }
