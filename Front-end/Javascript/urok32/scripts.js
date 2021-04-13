@@ -1,29 +1,17 @@
-// Д.з 31 урока
+// Д.з 32 урока
 
-// 1. Сделайте функцию которая возводить в степень числа вводимые пользователем
+// сделайте функцию которая суммирует два числа с плавающей точкой
+// пример: если пользователь  ввел 1.2, 1.2 вывод должен быть 2. 
+// пример: если пользователь  ввел 2.5, 2.3 вывод должен быть 5
+// пример: если пользователь  ввел 2,5, 2.7 вывод должен быть 5. 
+// пример: если пользователь  ввел 2,5, 3,2 вывод должен быть 6.
 
-function number(){
-        let enterNum = +prompt("Enter number: ", '');
-        let result = enterNum ** 2;
-        console.log(result);
+
+function sumNumber(){
+        let number1 = +prompt('Enter first float number: ', '');
+        let number2 = +prompt('Enter second float number: ', '');
+
+        let result = number1 + number2;
+        alert(result.toFixed());
 }
-number();
-
-// 2. Сделайте функцию которая находит площадь круга, радиус вводить пользователь 
-
-function numberArea(){
-        let enterRadius = +prompt("Enter radius: ", '');
-        let result = 3.14 * enterRadius ** 2 ;
-        console.log(result);
-}
-numberArea();
-
-// 3. Сделайте функцию которая находит площадь прямоугольника, длину и ширину вводить пользователь. 
-
-function rectangleArea(){
-        let enterLength = +prompt("Enter length: ", '');
-        let enterWidth = +prompt("Enter width: ", '');
-        let result = enterLength * enterWidth;
-        console.log(result);
-}
-rectangleArea();
+sumNumber();
