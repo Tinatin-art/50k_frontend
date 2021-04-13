@@ -1,22 +1,29 @@
-// Д.з 30 урока
+// Д.з 31 урока
 
-// 1. Сделать функцию которая вычисляет длину окружности, радиус задает пользователь.
+// 1. Сделайте функцию которая возводить в степень числа вводимые пользователем
 
-let user = +prompt("Введите радиус окружности: ", '');
-
-function result() {
-        alert(user * 3.14 * 2);
+function number(){
+        let enterNum = +prompt("Enter number: ", '');
+        let result = enterNum ** 2;
+        console.log(result);
 }
+number();
 
-result();
+// 2. Сделайте функцию которая находит площадь круга, радиус вводить пользователь 
 
-// 2. Напишите функцию min(a,b), которая возвращает меньшее из чисел a и b
-function min(a, b) {
-        if (a < b) {
-                return a;
-        } else {
-                return b;
-        }
+function numberArea(){
+        let enterRadius = +prompt("Enter radius: ", '');
+        let result = 3.14 * enterRadius ** 2 ;
+        console.log(result);
 }
+numberArea();
 
-alert(min(8, 15));
+// 3. Сделайте функцию которая находит площадь прямоугольника, длину и ширину вводить пользователь. 
+
+function rectangleArea(){
+        let enterLength = +prompt("Enter length: ", '');
+        let enterWidth = +prompt("Enter width: ", '');
+        let result = enterLength * enterWidth;
+        console.log(result);
+}
+rectangleArea();
