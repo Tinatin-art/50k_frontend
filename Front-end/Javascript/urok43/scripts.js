@@ -38,3 +38,6 @@ blue.onclick = function () {
 green.onclick = function () {
   document.body.style.background = "green";
 };
+
+
+
