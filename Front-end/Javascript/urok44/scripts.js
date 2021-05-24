@@ -81,12 +81,13 @@
 // Adilet, 1995, Tokmok.
 
 
-function createUser(name, year, city){
+function createUser(name, year, city) {
   this.name = name,
-  this.year = year,
-  this.city = city
+    this.year = year,
+    this.city = city
 };
-let amantur = new createUser('Amantur', 1998, 'Bishkek');
+
+let amantur = new createUser(prompt('name: ', ''), +prompt('year: ', ''), prompt('city: ', ''));
 console.log(amantur.name, amantur.year, amantur.city);
 
 let adilet = new createUser('Adilet', 1995, 'Tokmok');
