@@ -1,3 +1,4 @@
+'use strict';
 // Урок 42
 
 var click = document.getElementById("btn1");
@@ -29,18 +30,24 @@ click2.addEventListener('click', delet_elem);
 // 2. получите все кнопки из меню
 // 3. при нажатие на меню, удалите именно тот элемент на которой нажали 
 
-var click1 = document.getElementById("menu_btn1");
-var click2 = document.getElementById("menu_btn2");
-var click3 = document.getElementById("menu_btn3");
-var click4 = document.getElementById("menu_btn4");
-var click5 = document.getElementById("menu_btn5");
+// var click1 = document.getElementById("menu_btn1");
+// var click2 = document.getElementById("menu_btn2");
+// var click3 = document.getElementById("menu_btn3");
+// var click4 = document.getElementById("menu_btn4");
+// var click5 = document.getElementById("menu_btn5");
 
-var menu_delete = (a) => {
-  a.target.remove();
-};
+// var menu_delete = (a) => {
+//   a.target.remove();
+// };
 
-click1.addEventListener('click', menu_delete);
-click2.addEventListener('click', menu_delete);
-click3.addEventListener('click', menu_delete);
-click4.addEventListener('click', menu_delete);
-click5.addEventListener('click', menu_delete);
+// click1.addEventListener('click', menu_delete);
+// click2.addEventListener('click', menu_delete);
+// click3.addEventListener('click', menu_delete);
+// click4.addEventListener('click', menu_delete);
+// click5.addEventListener('click', menu_delete);
+
+document.querySelectorAll('#menu_btn').forEach(el => el.addEventListener('click', remove));
+
+function remove(){
+  this.remove();
+}

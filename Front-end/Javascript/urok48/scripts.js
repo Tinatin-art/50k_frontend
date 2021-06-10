@@ -118,7 +118,7 @@ new cardProduct(
   '.list_pruduct'
 ).render();
 
-
+// Урок 48 и д/з 48
 
 const Data = {
   name: "Tinatin",
