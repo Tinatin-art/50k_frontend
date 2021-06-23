@@ -75,6 +75,8 @@
 
 .block_body{
   height: 315px;
+  display:flex;
+  justify-content: space-between;
 
 }
 .list_pruduct{
