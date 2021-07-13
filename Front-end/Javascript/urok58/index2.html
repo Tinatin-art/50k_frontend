@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>Имя</p>
+    <input type="text" name="name" id="name">
+    <p>Фамилия</p>
+    <input type="text" name="surname" id="surname">
+    <button id="btn">Нажми!</button>
+
+    <script>
+        "use strict";
+
+
+        document.getElementById('btn').onclick = function () {
+
+
+            let user = {
+                name: document.getElementById("name").value,
+                surname: document.getElementById("surname").value,
+
+                get fullName() {
+                    return `${this.name} ${this.surname}`;
+                },
+
+                set fullName(value) {
+
+                }
+            };
+            
+            if ( user[Object.keys(user)[0]].length < 6) {
+                alert("Имя слишком короткое, должно быть более 6 символов");
+            }
+            if ( user[Object.keys(user)[1]].length < 6) {
+                alert("Фамилия слишком короткое, должно быть более 6 символов");
+            }
+
+            // console.log(user[Object.keys(user)[0]].length);
+            // console.log(user[Object.keys(user)[0]]);
+            // console.log(Object.values(user));
+            console.log(user.fullName);
+            // console.log(user.name);
+            // console.log(user.surname);
+
+
+        }
+    </script>
+</body>
+
+</html>
